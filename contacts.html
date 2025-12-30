@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <title>Контакти | Пчелен мед</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container header-row">
+    <div class="brand">
+		<div class="logo">
+			<div class="logo-badge">MV</div>
+
+			<div class="honeycomb" aria-label="Пчелна пита">
+			  <span class="cell alt"></span>
+			  <span class="cell"></span>
+			  <span class="cell alt"></span>
+			  <span class="cell"></span>
+			  <span class="cell alt"></span>
+			  <span class="cell"></span>
+			  <span class="cell alt"></span>
+			  <span class="cell"></span>
+			  <span class="cell alt"></span>
+			</div>
+		</div>
+	  
+      <div>
+        <h1 class="site-title" id="siteTitle">Пчелен мед</h1>
+        <p class="subtitle">Пчелни продукти и знание от природата</p>
+      </div>
+    </div>
+	<a class="btn" href="login.html">Вход</a>
+  </div>
+
+  <nav>
+    <div class="container nav-row">
+      <ul>
+        <li><a href="index.html">Начална</a></li>
+        <li><a href="about.html">За нас</a></li>
+        <li><a href="products.html">Продукти</a></li>
+        <li><a href="partners.html">Партньори</a></li>
+        <li><a class="active" href="contacts.html">Контакти</a></li>
+      </ul>
+		<div class="search-area">
+			<input type="text" id="search" placeholder="Търсене...">
+			<button class ="loop" type="submit">🔍</button>
+		</div>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+	<section class="contact-grid">
+		<div class="box" id="addressBox">
+			<div class="contact-left">
+				<h3>1) Адрес:</h3>
+				<ul class="address-contacts">
+					<li>село Боснек, ул. „Живата вода“ 23, 2345 Боснек</li>
+				</ul>
+
+				<h3>2) Контакти</h3>
+				<ul class="address-contacts">
+					<li><b>Телефон:</b> 088 878 5311</li>
+					<li><b>Имейл:</b> pchelin@mail.com</li>
+				</ul>
+			</div>
+
+			<div class="contact-right">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2941.7056837544596!2d23.176734976607886!3d42.49780932638708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14aacf46614f47f9%3A0xf39790d7344b0884!2z0J_Rh9C10LvQuNC9INGD0LsuItCW0LjQstCwINCy0L7QtNCwIiDRgS7QkdC-0YHQvdC10LogLzIzNDUtMDA2Mi8!5e0!3m2!1sbg!2sbg!4v1767047227515!5m2!1sbg!2sbg"
+					width="100%" height="260"
+					title="Карта">
+				</iframe>
+			</div>
+		</div>
+	</section>
+
+  <section class="box-wide" id="formBox">
+    <h3>Контактна форма</h3>
+    <form action="#" method="get">
+		<label for="name">1) Име:</label>
+		<input type="text" id="name" name="name">
+
+		<label for="email">2) Имейл:</label>
+		<input type="text" id="email" name="email">
+
+		<label for="topic">3) Тема:</label>
+		<input type="text" id="topic" name="topic">
+
+		<label for="msg">4) Съобщение:</label>
+		<textarea id="msg" name="msg"></textarea>
+
+		<p class="form-actions">
+        <input class="logregi" type="submit" value="Изпрати">
+		</p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <p class="subtitle">MV © Всички права запазени</p>
+  </div>
+</footer>
+
+</body>
+</html>
